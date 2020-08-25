@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Timeliner.Controls\Timeliner.Controls.csproj" />
+    <ProjectReference Include="..\Timeliner.Logic\Timeliner.Logic.csproj" />
+    <ProjectReference Include="..\Timeliner.StorageClasses\Timeliner.StorageClasses.csproj" />
+  </ItemGroup>
+
 </Project>

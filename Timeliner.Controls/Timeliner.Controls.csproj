@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Timeliner.Logic\Timeliner.Logic.csproj" />
+    <ProjectReference Include="..\Timeliner.StorageClasses\Timeliner.StorageClasses.csproj" />
+  </ItemGroup>
 
 </Project>

@@ -17,5 +17,9 @@ namespace Timeliner
             InitializeComponent();
         }
 
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            timelineControl1.Invalidate();
+        }
     }
 }
