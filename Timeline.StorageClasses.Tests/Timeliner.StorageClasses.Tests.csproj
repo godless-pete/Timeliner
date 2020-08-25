@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Timeliner.Logic\Timeliner.Logic.csproj" />
     <ProjectReference Include="..\Timeliner.StorageClasses\Timeliner.StorageClasses.csproj" />
   </ItemGroup>
 
