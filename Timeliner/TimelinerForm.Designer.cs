@@ -1,6 +1,6 @@
 ﻿namespace Timeliner
 {
-    partial class Form1
+    partial class TimelinerForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,22 +36,24 @@
             this.timelineControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.timelineControl1.BackColor = System.Drawing.Color.White;
+            this.timelineControl1.BackColor = System.Drawing.Color.Honeydew;
             this.timelineControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.timelineControl1.Location = new System.Drawing.Point(30, 24);
+            this.timelineControl1.Location = new System.Drawing.Point(26, 18);
+            this.timelineControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.timelineControl1.Name = "timelineControl1";
-            this.timelineControl1.Size = new System.Drawing.Size(741, 343);
+            this.timelineControl1.Size = new System.Drawing.Size(649, 258);
             this.timelineControl1.TabIndex = 0;
             // 
-            // Form1
+            // TimelinerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.timelineControl1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "TimelinerForm";
+            this.Text = "Timeliner";
             this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
 
