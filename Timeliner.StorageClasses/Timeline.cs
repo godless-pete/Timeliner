@@ -14,6 +14,7 @@ namespace Timeliner.StorageClasses
         public IList<TimelineEvent> Events
         {
             get { return _events; }
+            set { _events = value; }
         }
 
     }

@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Timeliner.Logic;
 
 namespace Timeliner.Logic.Tests
 {
